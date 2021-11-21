@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://media1.thehungryjpeg.com/thumbs2/ori_3684389_40o7j9jg1wn5jnjgmhkh6kj7lkln3v5ehhjdowo0_cf-monogram-logo-design.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" 
+    crossorigin="anonymous">
+    <title>Charles Fruitman</title>
+</head>
+<body>
+    <div id="root">
+        <div id="header">
+            <div id="header__name">
+                <h1 style="color: black">Charles Fruitman</h1>
+                <h2 style="color: black">CS & Econ</h2>
+            </div>
+            <nav id="header__links">
+                <a href="https://github.com/cafruitman"><i class="fab fa-github fa-3x"></i></a>
+                <a href="https://www.linkedin.com/in/charles-fruitman-8778891b5/"><i class="fab fa-linkedin fa-3x"></i></a>
+                <a href="https://www.facebook.com/charles.fruitman"><i class="fab fa-facebook-square fa-3x"></i></a>
+            </nav>
+            <button id="header__hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div id="header__dropdown">
+            <a href="https://github.com/cafruitman"><i class="fab fa-github fa-3x"></i></a>
+            <a href="https://www.linkedin.com/in/charles-fruitman-8778891b5/"><i class="fab fa-linkedin fa-3x"></i></a>
+            <a href="https://www.facebook.com/charles.fruitman"><i class="fab fa-facebook-square fa-3x"></i></a>
+        </div>
+        <div id="intro">
+            <p id="intro__welcome">Welcome!</p>
+            <div class="footer">
+                <a class="footer__a" href="#about">
+                    <p class="footer__text" style="color: white">About me</p>
+                    <i class="fas fa-angle-double-down fa-2x" style="color: white"></i>
+                </a>
+            </div>
+        </div>
+        <div id="about">
+            <div id="about__profile">
+                <img src="./website-photo.jpg" alt="">
+                <div id="about__profile__email">
+                    <h2>Charles Fruitman</h2>
+                    <h3><i class="fas fa-envelope"></i> charles.fruitman@outlook.com</h3>
+                </div>
+            </div>
+            <div id="about__bio">
+                <h1 id="about__bio__header" style="color: black">About me</h1>
+                <h4 id="about__bio__sentence1">I am a junior at Vanderbilt University studying Computer Science and Economics.</h4>
+                <h4>Click <a class="here" href="./CV Charles Fruitman.pdf" download="CV Charles Fruitman">here</a> to view my resume.</h4>
+            </div>
+            <div class="footer">
+                <a class="footer__a" href="#skill">
+                    <p class="footer__text" style="color: black">My Work</p>
+                    <i class="fas fa-angle-double-down fa-2x" style="color: black"></i>
+                </a>
+            </div>
+        </div>
+        <div id="skill">
+            <div id="skill__cover">
+                <div id="skill__resume">
+                    <h2>Projects</h2>
+                    <ul><span>Sutoon</span>
+                    <p style="padding-left: 20px">Worked remotely on two projects for an organization
+                        called Sutoon (<a class="here" href="http://www.sutoon.com/">www.sutoon.com</a>) in Lahore, Pakistan. Sutoon's 
+                        mission is to promote the learning of computer skills in Pakistan. <br></br>
+                        Worked on developing a networking platform called "Pluto" (currently listed as "Project T" on their website) where users
+                        form online study clubs and have access to a wide variety of study tools. Pluto has now been released internally and a preview
+                        can be viewed by clicking <a class="here" href="https://clubs-test.web.app/login">here</a>. Personally designed the home page,
+                        the signup page and the settings menu, and continuing to work collaboratively to develop other parts of the application as well. 
+                        Frameworks used include React.js, Tailwind CSS, Framer Motion, Firebase Firestore, and Firebase Auth.
+                        <br></br>
+                        Working on a study tool that allows the user to search
+                        for a political or social issue and find out different public figures' opinions
+                        based on sentiment analysis from tweets and podcasts. Used BeautifulSoup and SNScrape 
+                        to obtain the data and conducted NLP using the Transformers library.
+                    </p></ul>
+                    <ul></ul>
+                    <ul><span>College Coursework</span>
+                    <p style="padding-left: 20px">
+                        Created a data visualization project with a classmate using MySQL, PHP, and Tableau along with a CSV
+                        file containing 85,000 AirBnB listings.
+                        <br></br>
+                        Created a data visualization project using the R libraries ggplot2 and dplyr along with a CSV file
+                        containing US baby names from 1880 to 2014.
+                    </p></ul>
+                    <ul><span>Personal Projects</span>
+                    <p style="padding-left: 20px">
+                        Working on a SpongeBob trivia game in my spare time.
+                    </p></ul>
+                    <ul></ul>
+                    <h2>Academic Career</h2>
+                    <ul>Currently in third year of undergraduate Computer Science degree</ul>
+                    <ul>Awarded Dean's List every semester</ul>
+                    <ul>Cumulative GPA of 3.7</ul>
+                    <ul>Teaching assistant for Database Management Systems</ul>
+                    </p>
+                    <div style="height: 20px; width: 100%;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
